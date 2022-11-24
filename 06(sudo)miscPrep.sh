@@ -10,6 +10,7 @@ if ! apt-get install grub-customizer -y
 	then echo 'Erro ao instalar grub customizer' >> ~/miscPrep.log
 	else echo 'Sucesso ao instalar grub customizer!' >> ~/miscPrep.log
 fi
+
 if ! apt-get install tlp tlp-rdw -y && tlp start  -y
 	then echo 'Erro ao instalar TLP' >> ~/miscPrep.log
 	else echo 'Sucesso ao instalar TLP!' >> ~/miscPrep.log

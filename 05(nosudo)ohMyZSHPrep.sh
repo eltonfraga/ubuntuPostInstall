@@ -38,7 +38,8 @@ SPACESHIP_CHAR_SUFFIX=\" \"
 	else echo 'Sucesso ao adicionar configurações do Spaceship no .zshrc!' >> ~/ohMyZSHPrep.log
 fi
 
-if ! sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+#if ! sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+if ! bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 	then echo 'Erro ao instalar ZPlugin' >> ~/ohMyZSHPrep.log
 	else echo 'Sucesso ao instalar ZPlugin!' >> ~/ohMyZSHPrep.log
 fi
