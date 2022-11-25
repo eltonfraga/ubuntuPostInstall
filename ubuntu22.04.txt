@@ -15,3 +15,4 @@ sudo apt-get install timeshift
 sudo add-apt-repository ppa:gerardpuig/ppa
 sudo apt-get install ubuntu-cleaner
 sudo apt-get install gnome-sushi
+sudo apt install python3-pip  
