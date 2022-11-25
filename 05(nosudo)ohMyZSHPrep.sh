@@ -49,6 +49,8 @@ if ! echo "
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light zdharma/fast-syntax-highlighting
+
+alias py="python3"
 " >> ~/.zshrc 
 	then echo 'Erro ao adicionar configurações do ZPlugin no .zshrc' >> ~/ohMyZSHPrep.log
 	else echo 'Sucesso ao adicionar configurações do ZPlugin no .zshrc!' >> ~/ohMyZSHPrep.log
